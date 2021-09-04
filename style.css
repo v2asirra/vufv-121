@@ -1,0 +1,131 @@
+body{
+    background-color: gray;
+    height: 100vh;
+}
+.navbar{
+    background-color:lightcoral;
+    border-radius: 50px;
+    
+
+}
+.navbar{
+    overflow: auto;
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 5px ;
+    margin: 10px 10px;
+    
+}
+
+*{
+padding: 0%;
+margin: 0%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.container{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform:translate(-20%,-20%);
+    width: 100%;
+}
+
+.container span{
+   
+    display: block;
+}
+.text1{
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 1px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text2{
+    font-size: 40px;
+    color:white;
+}
+
+
+div.main{
+    width:400px;
+    margin:100px auto 0px auto;
+}
+div.register{
+    background-color: lightblue;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px solid pink;
+    box-shadow: 2px 2px 15px sandybrown;
+}
+ form#register{
+     margin: 20px;
+
+}
+label{
+    font-family: monospace;
+    font-size: 16px;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    border:1px solid yellow;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color:white;
+    box-shadow: inset 1px 1px 5 px;
+}
+input#submit{
+    width:200px;
+    padding: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+    border-radius :3px;
+    background-color: lightgrey;
+    cursor: pointer;
+    border: 1px solid skyblue;
+    margin-bottom: 20px;
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px orange;
+}
+div.about{
+    width:400px;
+    margin:100px auto 0px auto;
+}
+div.login{
+    background-color: lightpink;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px solid pink;
+    box-shadow: 2px 2px 15px sandybrown;
+}
+ form#login{
+     margin: 20px;
+
+}
+.logo{
+    flex-basis: 20%;
+    
+}
+.logo img{
+
+    width: 100px;
+
+}
+h5{
+    font-family: monospace;
+    color: yellow;
+}
+
+
+
+

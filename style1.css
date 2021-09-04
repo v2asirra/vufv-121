@@ -1,0 +1,102 @@
+body{
+    background-color: lightblue;
+    
+}
+
+input [type="text"]
+{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+input[type="submit"]
+{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+.xyz
+{
+    color:orangered;
+    
+    font: size 30px;; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    border-style: solid;
+     border-width: 2px;
+     border-color: red;
+     padding: 8px;
+     display:inline-block ;
+
+
+}
+h1{
+    color:red;
+    
+    font-size:14px;
+    font-family: inherit;
+    
+}
+ p{
+     color:red;
+     background-color:light greenyellow;
+     font-size :14px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+ }
+ p>a {
+     color:indianred;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+ }
+ 
+ b{
+     color: green;
+     font-family: monospace;
+     
+ }
+ a{
+     color: red;
+     line-height: 14px;
+     
+  
+
+ }
+ h2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 20px;
+     color: red;
+     text-align: center; 
+     border-style: solid;
+     border: width 6px ;
+     padding: 10px 40px 20px 5px;
+     margin : 10px 20px 10px 5px;
+ }
+ h4{
+     position: relative;
+     bottom: 20px;
+     left: 10px;
+ }
+ .logo{
+    flex-basis: 20%;
+    float: right;
+}
+.logo img{
+
+    width: 500px;
+
+}
+h6{
+text-align: right;
+color: red;
+font-size: 20px;
+}
+h7{
+    font-size: 30px;
+    color:purple ;
+}
+h9{
+    font-size: 20px;
+    color: royalblue;
+}
+
